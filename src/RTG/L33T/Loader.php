@@ -46,7 +46,7 @@ class Loader extends PluginBase {
 			
 	public function onDeath(PlayerDeathEvent $e) {
 		$p = $e->getPlayer();
-		$n = $->getName();
+		$n = $e->getName();
 			
 			if(isset($this->enabled[strtolower($p->getName())])) {
 				$e->setCancelled();
