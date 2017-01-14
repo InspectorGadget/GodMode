@@ -1,0 +1,12 @@
+name: God Mode
+version: 1.0.0
+main: RTG\L33T\Loader
+api: 2.1.0
+author: IG
+commands:
+  god:
+    permission: godmode.toggle
+    description: "Toggle God Mode!"
+permissions:
+  godmode.toggle:
+    default: op
